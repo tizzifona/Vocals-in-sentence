@@ -17,7 +17,7 @@
         <div>
           <label>Choose a function:</label>
           <label>
-            <select>
+            <select id="selectFunction">
               <option value="getSentence">getSentence</option>
               <option value="searchVocals">searchVocals</option>
               <option value="deleteDuplicity">deleteDuplicity</option>
@@ -28,11 +28,11 @@
         <div>
           <label>Write your text:</label>
           <label>
-            <input type="text" />
+            <input id="textInput" type="text" />
           </label>
-          <button>Want to see Result!</button>
+          <button id="submitButton">Want to see Result!</button>
         </div>
-        <div>Result:</div>
+        <div id="displayResult"></div>
       </div>
     </main>
     <footer></footer>
