@@ -1,0 +1,31 @@
+footer {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #8e8196;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+}
+
+.socialLinks {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.socialLinkImg {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.socialLinkImg:hover,
+.socialLinkImg:focus {
+  transform: scale(1.25);
+}
