@@ -1,0 +1,30 @@
+body {
+  background-color: #e1dcd0;
+  color: #2f2939;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+.mainContainer {
+  max-width: 1440px;
+  width: 100%;
+  font-size: 24px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Delius Swash Caps", cursive;
+}
