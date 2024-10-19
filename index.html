@@ -1,17 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Vocals in sentence</title>
-</head>
-<body>
-<header></header>
-<main></main>
-<footer></footer>
-<script src="./js/index.js"></script>
-</body>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="mainContainer">
+        <div>
+          <label>Choose a function:</label>
+          <label>
+            <select>
+              <option value="getSentence">getSentence</option>
+              <option value="searchVocals">searchVocals</option>
+              <option value="deleteDuplicity">deleteDuplicity</option>
+              <option value="getVocals">getVocals</option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <label>Write your text:</label>
+          <label>
+            <input type="text" />
+          </label>
+          <button>Want to see Result!</button>
+        </div>
+        <div>Result:</div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
