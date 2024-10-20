@@ -20,10 +20,10 @@
     <header><h1>Choose your function and enjoy!</h1></header>
     <main>
       <div class="mainContainer">
-        <div>
+        <div class="chooseFunction">
           <label>Choose a function:</label>
           <label>
-            <select id="selectFunction">
+            <select class="selectFunction" id="selectFunction">
               <option value="getSentence">getSentence</option>
               <option value="searchVocals">searchVocals</option>
               <option value="deleteDuplicity">deleteDuplicity</option>
@@ -31,14 +31,23 @@
             </select>
           </label>
         </div>
-        <div>
+        <div class="textInputContainer">
           <label>Write your text:</label>
           <label>
-            <input id="textInput" type="text" />
+            <input class="textInput" id="textInput" type="text" />
           </label>
-          <button id="submitButton">Want to see Result!</button>
         </div>
-        <div id="displayResult"></div>
+        <button class="submitButton" id="submitButton">
+          Want to see Result!
+        </button>
+
+        <div class="displayResult" id="displayResult">
+          <img
+            class="displayResultImg"
+            src="./images/main/dog.gif"
+            alt="tired dog with computer"
+          />
+        </div>
       </div>
     </main>
     <footer>
