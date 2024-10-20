@@ -8,6 +8,10 @@ export function getVocals(sentence) {
             result.push(letter); 
         }
     }
+
+    if (result.length === 0) {
+        return 'No vowels found in the sentence.';
+    }
     
     return result.join(', '); 
 }
