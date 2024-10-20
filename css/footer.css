@@ -2,12 +2,12 @@ footer {
   box-sizing: border-box;
   width: 100%;
   background-color: #8e8196;
-  height: 10%;
+  height: 15%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 15px 30px;
+  padding: 10px 30px;
 }
 
 .socialLinks {
