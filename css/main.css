@@ -1,0 +1,146 @@
+main {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chooseFunction {
+  padding: 20px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.selectFunction {
+  height: 35px;
+  padding: 3px;
+  margin-left: 10px;
+  font-size: 18px;
+  border: 2px solid #8e8196;
+  border-radius: 5px;
+  background-color: #e1dcd0;
+  transition: border-color 0.3s;
+  width: 15%;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+.selectFunction:focus {
+  outline: none;
+  border-color: #6c84af;
+}
+
+.textInputContainer {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.textInput {
+  height: 30px;
+  padding: 3px;
+  margin-left: 10px;
+  font-size: 18px;
+  border: 2px solid #8e8196;
+  border-radius: 5px;
+  background-color: #e1dcd0;
+  transition: border-color 0.3s;
+  width: 15%;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.textInput:focus {
+  outline: none;
+  border-color: #6c84af;
+}
+
+.submitButton {
+  width: 20%;
+  height: 60px;
+  border: none;
+  border-radius: 50px;
+  font-size: 22px;
+  background-color: #8e8196;
+  color: #2f2939;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.submitButton:active {
+  background-color: #2f2939;
+  color: #e1dcd0;
+}
+
+.displayResult {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 2px solid #2f2939;
+  width: 60%;
+  min-height: 200px;
+  text-align: center;
+}
+
+.displayResultImg {
+  width: 200px;
+}
+
+@media (max-width: 1200px) {
+  .selectFunction,
+  .textInput {
+    width: 25%;
+  }
+
+  .submitButton {
+    width: 30%;
+  }
+
+  .displayResult {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .selectFunction,
+  .textInput {
+    width: 40%;
+    font-size: 16px;
+  }
+
+  .submitButton {
+    width: 50%;
+    font-size: 20px;
+    height: 50px;
+  }
+
+  .displayResult {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .selectFunction,
+  .textInput {
+    width: 80%;
+    font-size: 14px;
+  }
+
+  .submitButton {
+    width: 80%;
+    font-size: 18px;
+    height: 40px;
+  }
+
+  .displayResult {
+    width: 80%;
+  }
+  .chooseFunction {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

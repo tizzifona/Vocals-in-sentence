@@ -1,0 +1,22 @@
+header {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #8e8196;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 18px;
+  }
+}
