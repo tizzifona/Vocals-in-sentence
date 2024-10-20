@@ -4,6 +4,7 @@
   margin-bottom: 40px;
   width: 100%;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .selectFunction {
@@ -80,4 +81,59 @@
 
 .displayResultImg {
   width: 200px;
+}
+
+@media (max-width: 1200px) {
+  .selectFunction,
+  .textInput {
+    width: 25%;
+  }
+
+  .submitButton {
+    width: 30%;
+  }
+
+  .displayResult {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .selectFunction,
+  .textInput {
+    width: 40%;
+    font-size: 16px;
+  }
+
+  .submitButton {
+    width: 50%;
+    font-size: 20px;
+    height: 50px;
+  }
+
+  .displayResult {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .selectFunction,
+  .textInput {
+    width: 80%;
+    font-size: 14px;
+  }
+
+  .submitButton {
+    width: 80%;
+    font-size: 18px;
+    height: 40px;
+  }
+
+  .displayResult {
+    width: 80%;
+  }
+  .chooseFunction {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
