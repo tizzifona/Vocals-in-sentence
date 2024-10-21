@@ -10,7 +10,7 @@ export function getVocals(sentence) {
     }
 
     if (result.length === 0) {
-        return 'No vowels found in the sentence.';
+        return 'No vocals found in the sentence.';
     }
     
     return result.join(', '); 
